@@ -1,5 +1,5 @@
 # Sudoku Game 
-###### Made By : Mina , Menna , Rawan
+##### Made By : Mina , Menna , Rawan
 
 # Some instructions to make playing easier
 
@@ -19,7 +19,6 @@
 ###### Come on, what are you waiting for to try the game and the interesting challenges?!
 
 
-<hr>
 # How to play Sudoku
 ##### 1.	First, look at the rows and columns in the grid and follow the basic rules of play.
 ##### 2.	Choose a number to fill the empty squares from 1-9 by choosing the correct number for each cell, keeping in mind that difficult puzzles have fewer squares and filled squares.
@@ -35,7 +34,6 @@
 
 
 
-<hr>
 ## Explanation with pictures
 <div>
  <h3>When you first start the game (Run code)</h3> 
@@ -55,5 +53,5 @@
   <img src="https://github.com/Mina012/New-Tasks/assets/169512114/ae3a0a8b-f2fe-49a7-9b40-ed31445dfad1" width"150" hieght "200" >
     <hr>
 
-##After that, a congratulatory message will appear if you win, but if you lose, do not despair. You can play again
+## After that, a congratulatory message will appear if you win, but if you lose, do not despair. You can play again
 </div>
