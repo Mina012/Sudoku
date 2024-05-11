@@ -493,16 +493,29 @@ void Sudoku() {
         Index = ReadIndex();
         NewValue = ReadNewValue();
         UpdateValueInMatrix(FakeMatrix, Index, NewValue);
-        GameOver = CheckWin(FakeMatrix);
+        GameOver = CheckWin(FakeMatrix); // التحقق من الفوز بعد كل خطوة
+
         ResetScreen();
         DrawGameMatrix(FakeMatrix);
+
+        if (GameOver) {
+            cout << "Congratulations! You've solved the Sudoku puzzle!" << endl;
+            // لا تعود إلى القائمة الرئيسية بعد الفوز
+            return;
+        }
+
+        // التحقق من انتهاء اللعبة بالتعادل
+        // (يمكنك تنفيذ ذلك باختبار ملء الخانات دون وجود قيمة 0)
+        // إذا انتهت اللعبة بالتعادل، يمكنك طباعة رسالة والعودة إلى القائمة الرئيسية
+
+        // إذا كانت اللعبة لم تنته بالفوز، يمكنك الاستمرار في لعبها
     }
 
-    if (CheckSolution(FakeMatrix)) {
-        cout << "Congratulations! You've solved the Sudoku puzzle!" << endl;
-    } else {
-        cout << "The solution is incorrect. Better luck next time!" << endl;
-    }
+    // إذا وصلنا هنا، فقد خسر اللاعب
+    cout << "Try again next time!" << endl;
+    // العودة إلى القائمة الرئيسية بعد الخسارة
+
+    GameOverScreen();
 
     GameOverScreen();
 }
