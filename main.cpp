@@ -62,13 +62,11 @@ void Sudoku();
 // Main function
 int main() {
 
-
-
     srand(static_cast<unsigned int>(time(0)));
     Difficulty selectedLevel;
 
     cout << " \n\n\n\n\t\t\t\tS\tU\tD\tO\tK\tU \t\tG\tA\tM\tE \t\t\t\t\t\t\n " << endl;
-    cout << " \t\t\t\t\t Made By : Mina Mamdouh , Menna Alrefaay , Rawan project \t\t\t\t\n " << endl;
+    cout << " \t\t\t\t\t Made By : Mina Mamdouh , Menna Alrefaay , Rawan Abd Alrahman \t\t\t\t\n " << endl;
     cout << " \t\t\t\t\t UNIVERISTY \t:\t E\tR\tU \t\t\t\t\n\n\n " << endl;
 
     cout << "Dear, Select the difficulty level you want to play : " << endl;
